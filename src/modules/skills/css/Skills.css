@@ -1,0 +1,145 @@
+.Skills {
+  position: relative;
+  /*top: 200%;*/
+  width: 100vw;
+  min-height: 100vh;
+  background-color: rgba(226, 225, 224, 1);
+  margin-top: 10px;
+}
+
+.programmingLanguagesField {
+  position: relative;
+  margin-top: 20px;
+  /*left:50%;
+  transform: translate(-50%, 0);*/
+  width: 75%;
+  padding: 10px;
+  display: inline-block;
+}
+
+.techLabel {
+  /*background-color: rgba(244, 67, 54, 1) !important;*/
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.19), 0 5px 5px rgba(0, 0, 0, 0.23);
+}
+
+.skillHeader {
+  color: rgba(168, 170, 179, 1) !important;
+  font-size: 15px !important;
+  font-family: 'Raleway', sans-serif !important;
+  letter-spacing: 3px !important;
+  font-weight: 300 !important;
+  text-align: left;
+}
+
+.foreignLanguageField {
+  position: relative;
+  /*left:20px;*/
+  margin-top: 20px;
+  width: 75%;
+  padding: 10px;
+  display: inline-block;
+}
+
+.langLabel {
+  background-color: rgba(205, 220, 57, 0.7) !important;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.19), 0 5px 5px rgba(0, 0, 0, 0.23);
+}
+
+.nextBtnCol1 {
+  position: absolute !important;
+  top: 50% !important;
+  left: 90vw !important;
+  transform: translate(0, -50%) !important;
+  height: 100px !important;
+  width: 100px !important;
+}
+
+.nextBtnCol2 {
+  position: absolute !important;
+  top: 50% !important;
+  /*right: 20px !important;*/
+  left: 190vw !important;
+  transform: translate(0, -50%) !important;
+  height: 100px !important;
+  width: 100px !important;
+}
+
+.prevBtnCol2 {
+  position: absolute !important;
+  top: 50% !important;
+  left: 100vw !important;
+  margin-left: 20px !important;
+  transform: translate(0, -50%) !important;
+  height: 100px !important;
+  width: 100px !important;
+}
+
+.prevBtnCol3 {
+  position: absolute !important;
+  top: 50% !important;
+  left: 200vw !important;
+  margin-left: 20px !important;
+  transform: translate(0, -50%) !important;
+  height: 100px !important;
+  width: 100px !important;
+}
+
+.nextBtnIcon, .prevBtnIcon{
+  width: 100px !important;
+  height: 100px !important;
+  transform: translate(-12px, -12px);
+  color: white !important;
+  filter: drop-shadow(0 5px 10px rgba(0, 0, 0, 0.19)) drop-shadow(0 4px 4px rgba(0, 0, 0, 0.23));
+}
+
+.versionControlField {
+  position: relative;
+  /*left:20px;*/
+  margin-top: 20px;
+  width: 75%;
+  padding: 10px;
+  display: inline-block;
+}
+
+.frameworkField {
+  position: relative;
+  /*left:20px;*/
+  margin-top: 10px;
+  width: 75%;
+  padding: 10px;
+  display: inline-block;
+}
+
+.manageField {
+  position: relative;
+  /*left:20px;*/
+  margin-top: 10px;
+  width: 75%;
+  padding: 10px;
+  display: inline-block;
+}
+
+.knowledgeField {
+  position: relative;
+  /*left:20px;*/
+  margin-top: 20px;
+  width: 75%;
+  padding: 10px;
+  display: inline-block;
+}
+
+.ideField {
+  position: relative;
+  /*left:20px;*/
+  margin-top: 20px;
+  width: 75%;
+  padding: 10px;
+  display: inline-block;
+}
+
+.knowledgeListItemIcon {
+  width: 20px !important;
+  height: 20px !important;
+  /*transform: translate(-12px, -12px);*/
+  /*filter: drop-shadow(0 5px 10px rgba(0, 0, 0, 0.19)) drop-shadow(0 4px 4px rgba(0, 0, 0, 0.23));*/
+}

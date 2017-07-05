@@ -1,0 +1,37 @@
+.AppMenu {
+  position: fixed;
+  z-index: 999;
+}
+
+.AppMenuBtn {
+  position: fixed !important;
+  left: 25px;
+  top: 25px;
+  width: 50px !important;
+  height: 50px !important;
+  /*transform: translate(0, -50%);*/
+  z-index: 999;
+}
+.AppMenuIcon {
+  width: 50px !important;
+  height: 50px !important;
+  transform: translate(-12px, -12px);
+  color: rgba(66, 66, 66, 1) !important;
+}
+
+.AppBar {
+  background-color: rgba(0, 150, 136, 0.7) !important;
+}
+
+.MenuWrap a {
+  text-decoration: none;
+}
+
+.MenuItem {
+  font-weight: bold !important;
+  color: rgba(66, 66, 66, 1) !important;
+}
+
+.MenuItem div div {
+  text-align: left !important;
+}
