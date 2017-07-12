@@ -105,3 +105,40 @@
   font-weight: 300;
   margin-top: 5px;
 }
+
+@media only screen and (max-width: 400px) {
+
+  .educationField {
+    width: 90%;
+  }
+
+  .degree {
+    font-size: 20px;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.19), 0 3px 3px rgba(0, 0, 0, 0.23);
+  }
+
+  .school {
+    color: rgba(168, 170, 179, 1);
+    font-size: 15px;
+    letter-spacing: 8px;
+  }
+
+  .cert {
+    font-size: 20px;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.19), 0 3px 3px rgba(0, 0, 0, 0.23);
+  }
+
+  .certDesc {
+    font-size: 15px;
+    letter-spacing: 8px;
+  }
+
+  .listEducationContent {
+    width: 80%;
+  }
+
+  .listItemEducationContent {
+    font-size: 14px !important;
+  }
+
+}

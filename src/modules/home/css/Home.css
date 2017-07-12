@@ -49,3 +49,17 @@
   letter-spacing: 10px;
   font-family: 'Raleway', sans-serif !important;
 }
+
+@media only screen and (max-width: 400px) {
+    .nameField {
+      font-size: 25px;
+    }
+    .positionField {
+      font-size: 15px;
+      letter-spacing: 8px;
+    }
+
+    .Home hr {
+      width: 80%;
+    }
+}

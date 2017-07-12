@@ -4,14 +4,12 @@
   width: 100vw;
   min-height: 100vh;
   background-color: rgba(226, 225, 224, 1);
-  margin-top: 10px;
+  margin-top: 0px;
 }
 
 .programmingLanguagesField {
   position: relative;
   margin-top: 20px;
-  /*left:50%;
-  transform: translate(-50%, 0);*/
   width: 75%;
   padding: 10px;
   display: inline-block;
@@ -142,4 +140,83 @@
   height: 20px !important;
   /*transform: translate(-12px, -12px);*/
   /*filter: drop-shadow(0 5px 10px rgba(0, 0, 0, 0.19)) drop-shadow(0 4px 4px rgba(0, 0, 0, 0.23));*/
+}
+
+.skillInfo-responsive {
+  display: none;
+}
+
+@media only screen and (max-width: 1100px) {
+  .skillInfo {
+    display: none;
+  }
+
+  .skillInfo-responsive {
+    display: inline-block;
+  }
+
+  .skillHeader {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .programmingLanguagesField {
+    width: 85%;
+  }
+
+  .programmingLanguagesField-responsive-item {
+    background-color: rgba(244, 67, 54, 0.8) !important;
+    margin: 5px !important;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  }
+
+  .foreignLanguageField {
+    width: 85%;
+  }
+
+  .foreignLanguageField-responsive-item {
+    background-color: rgba(205, 220, 57, 0.7) !important;
+    margin: 5px !important;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  }
+
+  .frameworkField {
+    width: 85%;
+    margin-top: 20px;
+  }
+
+  .frameworkField-responsive-item {
+    background-color: rgba(0, 150, 136, 1) !important;
+    margin: 5px !important;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  }
+
+  .manageField {
+    width: 85%;
+  }
+
+  .manageField-responsive-item {
+    background-color: rgba(103, 58, 183, 0.8) !important;
+    margin: 5px !important;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  }
+
+  .versionControlField {
+    width: 85%;
+    margin-top: 20px;
+  }
+
+  .versionControlField-responsive-item {
+    background-color: rgba(244, 67, 54, 0.8) !important;
+    margin: 5px !important;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  }
+
+  .knowledgeField {
+    width: 85%;
+  }
+
+  .ideField {
+    width: 85%;
+  }
 }

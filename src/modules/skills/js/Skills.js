@@ -14,6 +14,7 @@ import Done from 'material-ui/svg-icons/action/done';
 import Code from 'material-ui/svg-icons/action/code';
 import {List, ListItem} from 'material-ui/List';
 import Avatar from 'material-ui/Avatar';
+import CheckCircle from 'material-ui/svg-icons/action/check-circle';
 import '../css/Skills.css';
 
 var ForeignLanguegeLevels = React.createClass({
@@ -113,7 +114,7 @@ export default class Skills extends React.Component {
       <div className="Skills">
         <Paper className="sectionHeader" zDepth={2}>SKILLS</Paper>
 
-        <SwipeableViews index={this.state.slideIndex2} onChangeIndex={this.handleNext}>
+        <SwipeableViews className="skillInfo" index={this.state.slideIndex2} onChangeIndex={this.handleNext}>
           <div>
             <Paper className="programmingLanguagesField" zDepth={1}>
               <div className="skillHeader">PROGRAMMING LANGUAGE</div>
@@ -237,6 +238,103 @@ export default class Skills extends React.Component {
             </IconButton>
           </div>
         </SwipeableViews>
+
+        <div className="skillInfo-responsive">
+            <Paper className="programmingLanguagesField" zDepth={1}>
+              <div className="skillHeader">PROGRAMMING LANGUAGE</div>
+              <div style={{display: 'flex', flexWrap: 'wrap',}}>
+                <Chip className="programmingLanguagesField-responsive-item" labelColor="white"><Avatar backgroundColor="rgba(255, 253, 231, 1)" color="rgba(244, 67, 54, 0.8)" icon={<CheckCircle />} />Swift</Chip>
+                <Chip className="programmingLanguagesField-responsive-item" labelColor="white"><Avatar backgroundColor="rgba(255, 253, 231, 1)" color="rgba(244, 67, 54, 0.8)" icon={<CheckCircle />} />ReactJS</Chip>
+                <Chip className="programmingLanguagesField-responsive-item" labelColor="white"><Avatar backgroundColor="rgba(255, 253, 231, 1)" color="rgba(244, 67, 54, 0.8)" icon={<CheckCircle />} />Javascript</Chip>
+                <Chip className="programmingLanguagesField-responsive-item" labelColor="white"><Avatar backgroundColor="rgba(255, 253, 231, 1)" color="rgba(244, 67, 54, 0.8)" icon={<CheckCircle />} />Hardworking</Chip>
+                <Chip className="programmingLanguagesField-responsive-item" labelColor="white"><Avatar backgroundColor="rgba(255, 253, 231, 1)" color="rgba(244, 67, 54, 0.8)" icon={<CheckCircle />} />HTML / CSS</Chip>
+              </div>
+            </Paper>
+
+            <Paper className="foreignLanguageField" zDepth={1}>
+              <div className="skillHeader">FOREIGN LANGUAGE</div>
+              <div style={{display: 'flex', flexWrap: 'wrap',}}>
+                <Chip className="foreignLanguageField-responsive-item" labelColor="gray"><Avatar backgroundColor="rgba(255, 253, 231, 1)" color="rgba(205, 220, 57, 0.7)" icon={<CheckCircle />} />English</Chip>
+                <Chip className="foreignLanguageField-responsive-item" labelColor="gray"><Avatar backgroundColor="rgba(255, 253, 231, 1)" color="rgba(205, 220, 57, 0.7)" icon={<CheckCircle />} />Chinese(Cantonese)</Chip>
+              </div>
+            </Paper>
+
+            <Paper className="frameworkField" zDepth={1}>
+              <div className="skillHeader">FRAMEWORKS & PLATFORMS</div>
+              <div style={{display: 'flex', flexWrap: 'wrap',}}>
+                <Chip className="frameworkField-responsive-item" labelColor="white"><Avatar backgroundColor="rgba(255, 253, 231, 1)" color="rgba(0, 150, 136, 1)" icon={<CheckCircle />} />FacebookSDK</Chip>
+                <Chip className="frameworkField-responsive-item" labelColor="white"><Avatar backgroundColor="rgba(255, 253, 231, 1)" color="rgba(0, 150, 136, 1)" icon={<CheckCircle />} />GoogleMapsSDK for iOS</Chip>
+                <Chip className="frameworkField-responsive-item" labelColor="white"><Avatar backgroundColor="rgba(255, 253, 231, 1)" color="rgba(0, 150, 136, 1)" icon={<CheckCircle />} />YouTube Data API</Chip>
+                <Chip className="frameworkField-responsive-item" labelColor="white"><Avatar backgroundColor="rgba(255, 253, 231, 1)" color="rgba(0, 150, 136, 1)" icon={<CheckCircle />} />Wordpress</Chip>
+                <Chip className="frameworkField-responsive-item" labelColor="white"><Avatar backgroundColor="rgba(255, 253, 231, 1)" color="rgba(0, 150, 136, 1)" icon={<CheckCircle />} />Bootstrap</Chip>
+                <Chip className="frameworkField-responsive-item" labelColor="white"><Avatar backgroundColor="rgba(255, 253, 231, 1)" color="rgba(0, 150, 136, 1)" icon={<CheckCircle />} />Material-UI</Chip>
+              </div>
+            </Paper>
+
+            <Paper className="manageField" zDepth={1}>
+              <div className="skillHeader">DEPLOY & MANAGE</div>
+              <div style={{display: 'flex', flexWrap: 'wrap',}}>
+                <Chip className="manageField-responsive-item" labelColor="white"><Avatar backgroundColor="rgba(255, 253, 231, 1)" color="rgba(103, 58, 183, 0.8)" icon={<CheckCircle />} />Linux System & Services</Chip>
+                <Chip className="manageField-responsive-item" labelColor="white"><Avatar backgroundColor="rgba(255, 253, 231, 1)" color="rgba(103, 58, 183, 0.8)" icon={<CheckCircle />} />Window System & Services</Chip>
+                <Chip className="manageField-responsive-item" labelColor="white"><Avatar backgroundColor="rgba(255, 253, 231, 1)" color="rgba(103, 58, 183, 0.8)" icon={<CheckCircle />} />AWS Cloud Computing</Chip>
+                <Chip className="manageField-responsive-item" labelColor="white"><Avatar backgroundColor="rgba(255, 253, 231, 1)" color="rgba(103, 58, 183, 0.8)" icon={<CheckCircle />} />Docker Platform</Chip>
+              </div>
+            </Paper>
+
+            <Paper className="versionControlField" zDepth={1}>
+              <div className="skillHeader">VERSION CONTROL</div>
+              <div style={{display: 'flex', flexWrap: 'wrap',}}>
+                <Chip className="versionControlField-responsive-item" labelColor="white"><Avatar backgroundColor="rgba(255, 253, 231, 1)" color="rgba(244, 67, 54, 0.8)" icon={<CheckCircle />} />GitLab / GitHub (SourceTree)</Chip>
+              </div>
+            </Paper>
+
+            <Paper className="knowledgeField" zDepth={1}>
+              <div className="skillHeader">KNOWLEDGE</div>
+              <List className="knowledgeList">
+                <ListItem disabled={true}
+                          primaryText="Good knowledge in System Center Operations Manager."
+                          innerDivStyle={{textAlign: 'left', paddingBottom: 0, paddingLeft: 50, color: 'rgba(66, 66, 66, 1)'}}
+                          className="knowledgeListItem"
+                          leftIcon={<Done color="rgba(0, 188, 212, 1)" className="knowledgeListItemIcon"/>} />
+                <ListItem disabled={true}
+                          primaryText="Thorough knowledge in Windows 2003/2008 and Linux(CentOS) networking environment."
+                          innerDivStyle={{textAlign: 'left', paddingBottom: 0, paddingLeft: 50, color: 'rgba(66, 66, 66, 1)'}}
+                          className="knowledgeListItem"
+                          leftIcon={<Done color="rgba(0, 188, 212, 1)" className="knowledgeListItemIcon"/>} />
+               <ListItem  disabled={true}
+                          primaryText="Fully proficient at LAN, WAN, and Wireless building, cable installation and testing."
+                          innerDivStyle={{textAlign: 'left', paddingBottom: 0, paddingLeft: 50, color: 'rgba(66, 66, 66, 1)'}}
+                          className="knowledgeListItem"
+                          leftIcon={<Done color="rgba(0, 188, 212, 1)" className="knowledgeListItemIcon"/>} />
+                <ListItem disabled={true}
+                          primaryText="Configuration and Managing of Servers and Workstations."
+                          innerDivStyle={{textAlign: 'left', paddingBottom: 0, paddingLeft: 50, color: 'rgba(66, 66, 66, 1)'}}
+                          className="knowledgeListItem"
+                          leftIcon={<Done color="rgba(0, 188, 212, 1)" className="knowledgeListItemIcon"/>} />
+               <ListItem  disabled={true}
+                          primaryText="Good troubleshooting skills."
+                          innerDivStyle={{textAlign: 'left', paddingBottom: 0, paddingLeft: 50, color: 'rgba(66, 66, 66, 1)'}}
+                          className="knowledgeListItem"
+                          leftIcon={<Done color="rgba(0, 188, 212, 1)" className="knowledgeListItemIcon"/>} />
+                <ListItem disabled={true}
+                          primaryText="Good understanding about OOP, Design Pattern, Logical Thinking."
+                          innerDivStyle={{textAlign: 'left', paddingBottom: 0, paddingLeft: 50, color: 'rgba(66, 66, 66, 1)'}}
+                          className="knowledgeListItem"
+                          leftIcon={<Done color="rgba(0, 188, 212, 1)" className="knowledgeListItemIcon"/>} />
+             </List>
+            </Paper>
+
+            <Paper className="ideField" zDepth={1}>
+              <div className="skillHeader">IDE</div>
+              <div style={{display: 'flex', flexWrap: 'wrap',}}>
+                <Chip className="goodPoints" labelColor="white"><Avatar backgroundColor="rgba(255, 253, 231, 1)" color="rgba(0, 188, 212, 1)" icon={<Code />} />Atom</Chip>
+                <Chip className="goodPoints" labelColor="white"><Avatar backgroundColor="rgba(255, 253, 231, 1)" color="rgba(0, 188, 212, 1)" icon={<Code />} />Sublime Text</Chip>
+                <Chip className="goodPoints" labelColor="white"><Avatar backgroundColor="rgba(255, 253, 231, 1)" color="rgba(0, 188, 212, 1)" icon={<Code />} />Nodepad++</Chip>
+                <Chip className="goodPoints" labelColor="white"><Avatar backgroundColor="rgba(255, 253, 231, 1)" color="rgba(0, 188, 212, 1)" icon={<Code />} />Xcode</Chip>
+            </div>
+            </Paper>
+        </div>
+
       </div>
     </ScrollableAnchor>
     );

@@ -49,3 +49,15 @@
 .description {
   font-family: 'Raleway', sans-serif;
 }
+
+@media only screen and (max-width: 400px) {
+  .jobDate {
+      letter-spacing: 3px;
+      font-size: 15px;
+  }
+
+  .position {
+    letter-spacing: 3px;
+    font-size: 20px;
+  }
+}

@@ -45,7 +45,7 @@ export default class Education extends React.Component {
                         primaryText="Rank: Good"
                         leftIcon={<Done color="rgba(0, 188, 212, 1)"/>} />
             </List>
-            <Divider style={{width: '70%', marginLeft: '50%', transform: 'translate(-50%, 0)'}} />
+            <Divider style={{width: '80%', marginLeft: '50%', transform: 'translate(-50%, 0)'}} />
           </div>
 
           <div className="educationContent" style={{marginTop: 20}}>
@@ -54,7 +54,7 @@ export default class Education extends React.Component {
             <div className="certDesc">Windows Server 2003 Systems Administrator</div>
           </div>
 
-          <Divider style={{width: '70%', marginLeft: '50%', transform: 'translate(-50%, 0)'}} />
+          <Divider style={{width: '80%', marginLeft: '50%', transform: 'translate(-50%, 0)'}} />
 
 
           <div className="educationContent" style={{marginTop: 20}}>
