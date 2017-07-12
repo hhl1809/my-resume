@@ -63,3 +63,17 @@
       width: 80%;
     }
 }
+
+@media only screen and (orientation: landscape) {
+    .nameField {
+      font-size: 25px;
+    }
+    .positionField {
+      font-size: 15px;
+      letter-spacing: 8px;
+    }
+
+    .Home hr {
+      width: 80%;
+    }
+}

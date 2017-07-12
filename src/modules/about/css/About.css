@@ -85,6 +85,29 @@
   margin-bottom: 20px;
   transform: translate(-50%, 0);
 }
+@media only screen and (orientation: landscape) {
+  .Avartar {
+    position: relative;
+    margin-top: 20px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 150px;
+    height: 150px;
+  }
+
+  .Avartar img {
+    width: 150px !important;
+    height: 150px !important;
+  }
+
+  .info {
+    position: relative;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-bottom: 30px;
+  }
+}
 
 @media only screen and (max-width: 400px) {
   .Avartar {
