@@ -138,4 +138,14 @@
     font-size: 28px !important;
   }
 
+  .infoList {
+    margin-top: 70% !important;
+  }
+
+
+  .infoListItem {
+    font-size: 15px !important;
+    padding-left: 80px !important;
+  }
+
 }
