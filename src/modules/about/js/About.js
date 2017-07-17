@@ -17,9 +17,9 @@ import Chip from 'material-ui/Chip';
 import '../css/About.css';
 
 var myAddress = "Ho Chi Minh, VN";
-var myPhone = "+84 90 821 3698";
+var myPhone = "+84 93 890 4821";
 var myEmail = "hhl1809@gmail.com";
-var myWebsite = "hocluan.io"
+var myWebsite = "hocluan.herokuapp.com";
 
 export default class About extends React.Component {
   constructor(props) {
