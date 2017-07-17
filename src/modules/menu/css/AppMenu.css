@@ -35,3 +35,9 @@
 .MenuItem div div {
   text-align: left !important;
 }
+
+@media only screen and (max-width: 800px) {
+  .AppMenuBtn {
+    left: 10px;
+  }
+}

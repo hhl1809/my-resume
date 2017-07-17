@@ -50,7 +50,7 @@
   font-family: 'Raleway', sans-serif;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 800px) {
   .jobDate {
       letter-spacing: 3px;
       font-size: 15px;
