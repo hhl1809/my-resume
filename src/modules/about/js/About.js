@@ -40,7 +40,7 @@ export default class About extends React.Component {
           <Paper className="sectionHeader" zDepth={2}>ABOUT ME</Paper>
 
           <Paper circle={true} className="Avartar" zDepth={5}>
-            <Avatar size={300} src={require('../../../images/avatar.png')}/>
+            <Avatar size={300} src={require('../../../images/avatar.jpg')}/>
           </Paper>
 
           <Paper className="info" zDepth={1}>
